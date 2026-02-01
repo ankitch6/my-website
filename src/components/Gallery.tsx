@@ -11,78 +11,78 @@ interface Photo {
 }
 
 const photos: Photo[] = [
-  // Unsplash photos - using placeholder photography images
+  // Unsplash photos from @ankitch6
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-    alt: "Mountain landscape at golden hour",
+    src: "https://images.unsplash.com/photo-1691917510639-ff3861ac903b?w=800&q=80",
+    alt: "Forest canopy looking up at tall trees",
     category: "unsplash",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80",
-    alt: "Serene nature scene with sunlight",
+    src: "https://images.unsplash.com/photo-1644742671220-8dc233aa20de?w=800&q=80",
+    alt: "Pink and white flower in a garden",
     category: "unsplash",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
-    alt: "Peaceful lake reflection",
+    src: "https://images.unsplash.com/photo-1644742671039-e7ecd9c1e8e8?w=800&q=80",
+    alt: "Large white flower with green leaves",
     category: "unsplash",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800&q=80",
-    alt: "Rolling green hills",
+    src: "https://images.unsplash.com/photo-1644742670557-3536e965539a?w=800&q=80",
+    alt: "Close up of colorful flowers",
     category: "unsplash",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80",
-    alt: "Waterfall in forest",
+    src: "https://images.unsplash.com/photo-1644742670535-f9da5920531f?w=800&q=80",
+    alt: "Purple flower with green leaves",
     category: "unsplash",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80",
-    alt: "Misty mountain valley",
+    src: "https://images.unsplash.com/photo-1639484800974-73482b1f0814?w=800&q=80",
+    alt: "Tall building with geometric windows",
     category: "unsplash",
   },
-  // Instagram-style photos
+  // Instagram-style photos from @ankitch6
   {
     id: 7,
-    src: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80",
-    alt: "Italian coastal village",
+    src: "https://images.unsplash.com/photo-1644742671186-9261a6be7c7a?w=800&q=80",
+    alt: "Potted plant with pink flowers",
     category: "instagram",
   },
   {
     id: 8,
-    src: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
-    alt: "Paris cityscape",
+    src: "https://images.unsplash.com/photo-1644742670502-798bd50a9b4b?w=800&q=80",
+    alt: "White flower surrounded by blooms",
     category: "instagram",
   },
   {
     id: 9,
-    src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80",
-    alt: "Tropical paradise",
+    src: "https://images.unsplash.com/photo-1638720246474-3f5d266f02f3?w=800&q=80",
+    alt: "Abstract photography",
     category: "instagram",
   },
   {
     id: 10,
-    src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
-    alt: "Urban architecture",
+    src: "https://images.unsplash.com/photo-1629475201467-2534c3c2b668?w=800&q=80",
+    alt: "Nature photography",
     category: "instagram",
   },
   {
     id: 11,
-    src: "https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?w=800&q=80",
-    alt: "Night sky photography",
+    src: "https://images.unsplash.com/photo-1760717828777-2e4287962da0?w=800&q=80",
+    alt: "Creative photography",
     category: "instagram",
   },
   {
     id: 12,
-    src: "https://images.unsplash.com/photo-1518173946687-a4c036bc8bfb?w=800&q=80",
-    alt: "Coffee and morning light",
+    src: "https://images.unsplash.com/photo-1673499200033-61b089b27981?w=800&q=80",
+    alt: "Artistic capture",
     category: "instagram",
   },
 ];
@@ -127,7 +127,7 @@ const Gallery = () => {
             Capturing moments and perspectives from my travels and everyday life.
             Follow my journey on{" "}
             <a
-              href="https://unsplash.com/@ankit_choudhary"
+              href="https://unsplash.com/@ankitch6"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
@@ -226,7 +226,7 @@ const Gallery = () => {
           className="flex flex-wrap justify-center gap-4 mt-12"
         >
           <a
-            href="https://unsplash.com/@ankit_choudhary"
+            href="https://unsplash.com/@ankitch6"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-card text-foreground rounded-full font-medium transition-all duration-300 hover:shadow-elevated border border-border hover:border-primary/30"
