@@ -1,9 +1,16 @@
 import { ArrowDown } from "lucide-react";
 import { motion } from "framer-motion";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen relative flex items-center justify-center overflow-hidden bg-gradient-hero">
+    <section className="min-h-screen relative flex items-center justify-center overflow-hidden">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img src={heroBg} alt="" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px]" />
+      </div>
+
       {/* Floating decorative elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-sage-light/40 blur-3xl animate-float" />
