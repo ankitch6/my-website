@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, ChevronLeft, ChevronRight, Camera, Instagram } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, Camera, Instagram, ShoppingBag } from "lucide-react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Link } from "react-router-dom";
 
 interface Photo {
   id: number;
@@ -243,6 +244,23 @@ const Gallery = () => {
             <Instagram className="w-5 h-5" />
             Follow on Instagram
           </a>
+        </motion.div>
+
+        {/* Shop CTA */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.5 }}
+          className="text-center mt-8"
+        >
+          <Link
+            to="/shop"
+            className="inline-flex items-center gap-2 px-8 py-3.5 bg-primary text-primary-foreground rounded-full font-medium transition-all duration-300 hover:shadow-glow"
+          >
+            <ShoppingBag className="w-5 h-5" />
+            Browse Prints for Sale
+          </Link>
         </motion.div>
       </div>
 
