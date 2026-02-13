@@ -4,7 +4,6 @@ import Hobbies from "@/components/Hobbies";
 import Values from "@/components/Values";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
-import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -23,8 +22,9 @@ const Index = () => {
       <section id="experience">
         <Experience />
       </section>
-      <Gallery />
-      <Contact />
+      <section id="contact">
+        <Contact />
+      </section>
       <Footer />
     </main>
   );
