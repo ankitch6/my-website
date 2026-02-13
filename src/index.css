@@ -6,61 +6,61 @@
 
 @layer base {
   :root {
-    /* Warm Pastel Palette */
-    --background: 40 33% 97%;
-    --foreground: 20 20% 20%;
+    /* Vibrant Modern Palette */
+    --background: 45 40% 98%;
+    --foreground: 220 25% 15%;
 
-    --card: 40 30% 95%;
-    --card-foreground: 20 20% 20%;
+    --card: 45 35% 96%;
+    --card-foreground: 220 25% 15%;
 
-    --popover: 40 33% 97%;
-    --popover-foreground: 20 20% 20%;
+    --popover: 45 40% 98%;
+    --popover-foreground: 220 25% 15%;
 
-    /* Sage Green Primary */
-    --primary: 145 25% 45%;
-    --primary-foreground: 40 33% 97%;
+    /* Vivid Teal-Green Primary */
+    --primary: 160 60% 40%;
+    --primary-foreground: 45 40% 98%;
 
-    /* Dusty Rose Secondary */
-    --secondary: 12 35% 85%;
-    --secondary-foreground: 20 20% 25%;
+    /* Vibrant Pink Secondary */
+    --secondary: 340 55% 75%;
+    --secondary-foreground: 220 25% 15%;
 
-    /* Warm Cream Muted */
-    --muted: 35 30% 92%;
-    --muted-foreground: 20 15% 45%;
+    /* Bright Muted */
+    --muted: 40 35% 93%;
+    --muted-foreground: 220 15% 45%;
 
-    /* Terracotta Accent */
-    --accent: 20 50% 70%;
-    --accent-foreground: 20 20% 20%;
+    /* Rich Coral Accent */
+    --accent: 25 80% 60%;
+    --accent-foreground: 220 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 25% 88%;
-    --input: 35 25% 88%;
-    --ring: 145 25% 45%;
+    --border: 40 30% 88%;
+    --input: 40 30% 88%;
+    --ring: 160 60% 40%;
 
     --radius: 0.75rem;
 
     /* Custom Design Tokens */
-    --sage: 145 25% 45%;
-    --sage-light: 145 30% 85%;
-    --terracotta: 20 50% 70%;
-    --terracotta-light: 20 40% 90%;
-    --rose: 12 35% 75%;
-    --rose-light: 12 40% 92%;
-    --cream: 40 33% 97%;
-    --cream-dark: 35 30% 92%;
-    --earth: 20 20% 25%;
+    --sage: 160 60% 40%;
+    --sage-light: 160 50% 88%;
+    --terracotta: 25 80% 60%;
+    --terracotta-light: 25 60% 92%;
+    --rose: 340 55% 75%;
+    --rose-light: 340 50% 93%;
+    --cream: 45 40% 98%;
+    --cream-dark: 40 35% 93%;
+    --earth: 220 25% 15%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(145 30% 85% / 0.5), hsl(20 40% 90% / 0.5), hsl(12 40% 92% / 0.5));
-    --gradient-card: linear-gradient(180deg, hsl(40 33% 97%), hsl(35 30% 94%));
-    --gradient-accent: linear-gradient(135deg, hsl(145 25% 45%), hsl(145 30% 55%));
+    --gradient-hero: linear-gradient(135deg, hsl(160 50% 88% / 0.5), hsl(25 60% 92% / 0.5), hsl(340 50% 93% / 0.5));
+    --gradient-card: linear-gradient(180deg, hsl(45 40% 98%), hsl(40 35% 95%));
+    --gradient-accent: linear-gradient(135deg, hsl(160 60% 40%), hsl(160 55% 50%));
 
     /* Shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(20 20% 20% / 0.08);
-    --shadow-elevated: 0 8px 30px -8px hsl(20 20% 20% / 0.12);
-    --shadow-glow: 0 0 40px hsl(145 25% 45% / 0.15);
+    --shadow-soft: 0 4px 20px -4px hsl(220 25% 15% / 0.08);
+    --shadow-elevated: 0 8px 30px -8px hsl(220 25% 15% / 0.12);
+    --shadow-glow: 0 0 40px hsl(160 60% 40% / 0.2);
 
     /* Typography */
     --font-display: 'Playfair Display', serif;
@@ -77,46 +77,46 @@
   }
 
   .dark {
-    --background: 20 15% 10%;
-    --foreground: 40 20% 90%;
+    --background: 220 20% 10%;
+    --foreground: 45 20% 92%;
 
-    --card: 20 15% 13%;
-    --card-foreground: 40 20% 90%;
+    --card: 220 18% 13%;
+    --card-foreground: 45 20% 92%;
 
-    --popover: 20 15% 10%;
-    --popover-foreground: 40 20% 90%;
+    --popover: 220 20% 10%;
+    --popover-foreground: 45 20% 92%;
 
-    --primary: 145 30% 55%;
-    --primary-foreground: 20 15% 10%;
+    --primary: 160 55% 50%;
+    --primary-foreground: 220 20% 10%;
 
-    --secondary: 12 25% 25%;
-    --secondary-foreground: 40 20% 90%;
+    --secondary: 340 45% 35%;
+    --secondary-foreground: 45 20% 92%;
 
-    --muted: 20 15% 18%;
-    --muted-foreground: 40 15% 60%;
+    --muted: 220 15% 18%;
+    --muted-foreground: 45 15% 60%;
 
-    --accent: 20 40% 50%;
-    --accent-foreground: 40 20% 90%;
+    --accent: 25 70% 55%;
+    --accent-foreground: 45 20% 92%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 20 15% 20%;
-    --input: 20 15% 20%;
-    --ring: 145 30% 55%;
+    --border: 220 15% 22%;
+    --input: 220 15% 22%;
+    --ring: 160 55% 50%;
 
-    --sage: 145 30% 55%;
-    --sage-light: 145 25% 25%;
-    --terracotta: 20 40% 50%;
-    --terracotta-light: 20 30% 20%;
-    --rose: 12 30% 45%;
-    --rose-light: 12 25% 20%;
-    --cream: 20 15% 10%;
-    --cream-dark: 20 15% 15%;
-    --earth: 40 20% 85%;
+    --sage: 160 55% 50%;
+    --sage-light: 160 30% 22%;
+    --terracotta: 25 70% 55%;
+    --terracotta-light: 25 40% 20%;
+    --rose: 340 45% 50%;
+    --rose-light: 340 30% 22%;
+    --cream: 220 20% 10%;
+    --cream-dark: 220 18% 15%;
+    --earth: 45 20% 88%;
 
-    --gradient-hero: linear-gradient(135deg, hsl(145 25% 15% / 0.5), hsl(20 30% 15% / 0.5), hsl(12 25% 15% / 0.5));
-    --gradient-card: linear-gradient(180deg, hsl(20 15% 13%), hsl(20 15% 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(160 30% 15% / 0.5), hsl(25 30% 15% / 0.5), hsl(340 25% 15% / 0.5));
+    --gradient-card: linear-gradient(180deg, hsl(220 18% 13%), hsl(220 18% 15%));
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
